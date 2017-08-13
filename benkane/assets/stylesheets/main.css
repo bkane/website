@@ -1,0 +1,199 @@
+/*
+===============
+ Clearfix
+ http://learn.shayhowe.com/html-css/positioning-content/#practice-1
+============
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+/*
+===============
+ Typography
+============
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #E7ECF0;
+    line-height: 1.5em;
+}
+
+h1, h2 {
+    margin-bottom: 22px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 700;
+}
+
+cite {
+    font-style: italic;
+}
+/*
+===============
+ Main
+============
+*/
+
+.container {
+    width: 960;
+    margin: 40px auto;
+}
+
+.row {
+    min-width: 1024;
+    background: #fff;
+}
+
+.header-img {
+    width: 350;
+    border-radius: 5%;
+    float: left;
+    margin: 0 40px 20px 0;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.project {
+    height: 200;
+    margin: 0 20px 22px 20px;
+    font-size: 14px;
+}
+
+.project-thumbnail {
+    height: 200px;
+    width: 320px;
+    float: left;
+    margin-right: 22px;
+}
+
+.project-thumbnail img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.project h2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+.current-status {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.footer {
+    background: #224;
+}
+
+.footer a,
+.footer p {
+        color: #fff;
+}
+
+.footer .container,
+.footer p {
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.tagline {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.section-header {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+    background: linear-gradient(to right, #224, transparent);
+    padding: 12px;
+}
+
+table.talks {
+    border-collapse: collapse;
+    margin: 0 40px;
+}
+
+.talks p {
+    margin: 0;
+}
+
+.talks tr {
+}
+
+.talks td {
+    padding: 10px;
+}
+
+.talks .event-name,
+.talks .event-date {
+    text-align: center;
+}
+
+.talks .event-date {
+    font-size: 14;
+    font-style: italic;
+}
+
+.talks .event {
+    width: 35%
+}
+
+.talk-title {
+    font-size: 20px;
+    width: 50%;
+    text-align: center
+}
+
+.small-icon {
+    float: left;
+    height: 1.5em; 
+    margin-right: 10px;
+}
+
+.publication-title {
+    margin-bottom: 0;
+}
+
+.publication-tagline {
+    font-style: italic;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 12;
+}
