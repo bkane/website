@@ -50,7 +50,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #777;
+    color: #3D7196;
     font-weight: 700;
 }
 
@@ -135,12 +135,19 @@ cite {
     font-size: 16px;
 }
 
-.section-header {
-    color: #fff;
-    font-size: 1.5em;
+.section-header h2 {
+    color: #000;
+    font-size: 2em;
     font-weight: 100;
-    background: linear-gradient(to right, #224, transparent);
-    padding: 12px;
+    padding: 12px 12px 5px 0;
+    margin-bottom: 0;
+}
+
+.section-header hr {
+    background-image: linear-gradient(to right, #224, transparent);
+    border: 0;
+    height: 3px;
+    margin-bottom: 30px;
 }
 
 table.talks {
@@ -150,9 +157,6 @@ table.talks {
 
 .talks p {
     margin: 0;
-}
-
-.talks tr {
 }
 
 .talks td {
@@ -170,13 +174,13 @@ table.talks {
 }
 
 .talks .event {
-    width: 35%
+    width: 35%;
 }
 
 .talk-title {
     font-size: 20px;
     width: 50%;
-    text-align: center
+    text-align: center;
 }
 
 .small-icon {
