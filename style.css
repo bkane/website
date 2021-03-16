@@ -1,0 +1,26 @@
+.header-img {
+    border-radius: 5%;
+}
+
+hr {
+    background-image: linear-gradient(to right, #224, transparent);
+    border: 0;
+    height: 3px;
+    margin-bottom: 30px;
+}
+
+.talk-title {
+    font-size: 1.4em;
+}
+.event-name {
+    margin-bottom: 2em;
+}
+
+.event-date {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.footer {
+    background-color: rgb(39, 39, 39);
+}
